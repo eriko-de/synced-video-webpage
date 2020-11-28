@@ -1,0 +1,12 @@
+<script>App.media_path = "/audio_video_sync.m3u8"</script>
+
+<h1>Pages#player</h1>
+<p>Find me in app/views/pages/player.html.erb</p>
+
+  <%# video_tag 'audio_video_sync.mp4', size: '500x400', id: 'video' %>
+  <video id="video" height="400px"></video>
+<div id='controls'>
+  <button id="play-btn" onclick="video.play()">Play</button>
+  <button id="pause-btn" onclick="video.pause()">Paused</button>
+</div>
+
