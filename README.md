@@ -1,24 +1,10 @@
-# README
+# Description
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Small app which coordinates the playback of a video between different browser session.
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+As usual:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle && yarn && bundle exec rails s
